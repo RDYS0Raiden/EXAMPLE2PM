@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // y devuelve esa letra como un caracter simple o
         for(int i=this.nombre.length()-1;i>=0;i--){
             invertido += this.nombre.charAt(i);
-
+//a
         }
         txtResultado.setText(invertido);
     }
